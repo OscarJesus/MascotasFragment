@@ -1,4 +1,4 @@
-package com.oscarjesus.mascotas;
+package com.oscarjesus.mascotas.adapter;
 
 
 
@@ -7,8 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextClock;
 import android.widget.TextView;
+
+import com.oscarjesus.mascotas.pojo.Mascota;
+import com.oscarjesus.mascotas.R;
 
 import java.util.ArrayList;
 

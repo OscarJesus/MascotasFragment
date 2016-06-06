@@ -1,4 +1,4 @@
-package com.oscarjesus.mascotas;
+package com.oscarjesus.mascotas.pojo;
 
 /**
  * Created by OscarJesús on 27/05/2016.
@@ -8,10 +8,12 @@ package com.oscarjesus.mascotas;
 public class Mascota {
     private int foto;
     private String nombre;
+    private String like;
 
-    public Mascota(int foto, String nombre){
+    public Mascota(int foto, String nombre, String like){
         this.foto = foto;
         this.nombre = nombre;
+        this.like = like;
 
     }
 
@@ -31,4 +33,11 @@ public class Mascota {
         this.foto = foto;
     }
 
+    public String getLike() {
+        return like;
+    }
+
+    public void setLike(String like) {
+        this.like = like;
+    }
 }
